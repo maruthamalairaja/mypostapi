@@ -104,7 +104,7 @@
 		</div>
 
 		<div class="actions">
-			<div class="samples-wrapper">
+			<!-- <div class="samples-wrapper">
 				<button
 					type="button"
 					class="btn btn-ghost btn-sm sample-toggle"
@@ -128,7 +128,7 @@
 						{/each}
 					</ul>
 				{/if}
-			</div>
+			</div> -->
 
 			{#if loading}
 				<button

@@ -8,7 +8,7 @@
 
 	// In-memory request state (NO storage, strictly cleared on reload)
 	let method = 'GET';
-	let url = 'https://jsonplaceholder.typicode.com/posts/1';
+	let url = '';
 	let params = [];
 	let headers = [
 		{

@@ -6,10 +6,13 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: '200.html',
+			fallback: undefined,
 			precompress: false,
-			strict: false
+			strict: true
 		}),
+		// Using a custom domain via static/CNAME, so the site is served from the
+		// domain root. If you deploy to https://username.github.io/repo-name
+		// instead (no custom domain), set this to '/repo-name'.
 		paths: {
 			base: ''
 		}
